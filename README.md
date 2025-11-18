@@ -1,87 +1,89 @@
-# 🛡️ SubSentry - The Subscription Tracker
+# Subscription Tracker App
 
-> **"Secure your budget. Stop the subscription creep."**
-
-**SubSentry** is a specialized dashboard designed for the "Budget-Conscious Professional." It helps users manually log, track, and visualize their recurring expenses to prevent forgotten free trials and "vampire costs."
-
-![Vibe Coded Badge](https://img.shields.io/badge/Vibe%20Coded-Emerald%20Green-10B981)
-![Status](https://img.shields.io/badge/Status-MVP%20Complete-success)
-![Tech Stack](https://img.shields.io/badge/Tech-React%20%7C%20Vite%20%7C%20LocalStorage-blue)
-
-## 🚀 Live Demo
-**[View the Live MVP Here](https://comma-native-64429766.figma.site)**
+**Subscription Tracker App** is a web-based (Figma-prototype) dashboard for tracking user subscriptions (e.g., streaming, SaaS, utilities). It helps users visualize and manage recurring expenses in one place.
 
 ---
 
-## 🧐 The Problem
-Professionals today subscribe to dozens of tools (Netflix, Spotify, Canva, Gym). It is easy to lose track of renewal dates, leading to:
-* **"Vampire Costs":** Small, forgotten charges that drain monthly budgets.
-* **Trial Anxiety:** Forgetting to cancel 7-day free trials.
-* **Fragmentation:** No single source of truth for recurring expenses.
+## 🚀 Features
 
-## 💡 The Solution
-**SubSentry** provides a centralized "Reality Check" dashboard.
-* **Visualizes** total monthly spending immediately.
-* **Sorts** subscriptions by the next renewal date.
-* **Persists** data locally so you stay organized without complex setups.
+- **Subscription Overview**: Display all active subscriptions and their monthly costs.  
+- **Category-wise Breakdown**: Group subscriptions by category (Entertainment, Productivity, etc.).  
+- **Spending Insights**: Visual charts showing how much you spend per month or per category.  
+- **Add / Delete Subscriptions**: Ability to add new services, set price, renewal date; remove expired ones.  
+- **Notifications / Reminders (Prototype)**: UX flow for sending reminders before renewal.
 
 ---
 
-## ✨ Key Features
-* **🔐 Simulated Authentication:** A secure-feeling login flow (MVP version) that personalizes the user experience.
-* **📊 Reality Check Dashboard:** Dynamic "Total Monthly Cost" calculator that updates instantly as you add items.
-* **💾 Persistent Tracking:** Uses `localStorage` to save your data—refresh the page, and your budget remains intact.
-* **🎨 "Empowering" UI Design:** Built with a custom "Emerald Green" (#10B981) design system to evoke financial growth and security.
-* **📱 Fully Responsive:** Works seamlessly on mobile and desktop.
+## 🎯 Why This Project
+
+Many people lose track of their recurring subscriptions — some cancel, some forget, and some get surprised by auto-renewals. This app is built to give a **transparent understanding** of monthly recurring costs, helping users make more informed decisions, avoid unnecessary spending, and stay on top of renewal dates.
 
 ---
 
-## 🛠️ Tech Stack
-* **Frontend:** React.js (Vite)
-* **Styling:** CSS3 (Custom Vibe-Coded Variables)
-* **State Management:** React Hooks (`useState`, `useEffect`)
-* **Persistence:** Browser LocalStorage (Client-Side Only)
+## 🧪 Prototype & Design
+
+This project is currently a **design prototype** built in Figma. It’s not live for production use, but the Figma site serves as a clickable demo for flows, UI, and interactions.
+
+- **View Prototype**: [Figma Site / Demo Link]  
+- **Design Tools**: Figma (Frames, Components, Prototyping)
 
 ---
 
-## 🤖 Methodology (Prompt Engineering)
-This project was built using the **4D Framework (Discover, Define, Develop, Deliver)** assisted by advanced Prompt Engineering techniques documented in the Methodology Appendix:
-1.  **Role-Playing:** Used to generate the specific "Alex the Optimizer" user persona.
-2.  **Chain-of-Thought:** Used to break down the "Vampire Cost" problem into actionable user stories.
-3.  **Vibe Coding:** Used "Adjective Prompting" to generate the *Secure & Empowering* Emerald Green theme.
-4.  **Constraint-Based Prompting:** restricted the MVP to LocalStorage to ensure functional delivery without backend dependencies.
+## 🛠️ How to Use (for Viewers / Stakeholders)
+
+1. **Open the Figma Site** – click through the frames to see the app flow.  
+2. **Interact with UI Components** – use the buttons, dropdowns, and chart mockups to simulate usage.  
+3. **Feedback** – since it’s a prototype, you can provide feedback on design, flows, or features.
 
 ---
 
-## ⚙️ Installation & Run Locally
+## 📂 Project Structure (if this was a code repo)
 
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/SubSentry.git](https://github.com/YOUR_USERNAME/SubSentry.git)
-    ```
+Here’s how you might structure the project if you were to convert the Figma design into a working app:
 
-2.  **Navigate to the project folder**
-    ```bash
-    cd SubSentry
-    ```
+/src
+├── components/ # React / Vue components (UI)
+├── pages/ # Different views — Dashboard, Add Subscription, Settings
+├── services/ # API or local storage handling
+├── utils/ # Helper functions (date utils, formatters)
+├── assets/ # Icons, images
+└── styles/ # CSS or styled-components
 
-3.  **Install dependencies**
-    ```bash
-    npm install
-    ```
-
-4.  **Run the development server**
-    ```bash
-    npm run dev
-    ```
 
 ---
 
-## 🔮 Future Roadmap
-* [ ] **Cloud Sync:** Migrate from LocalStorage to Supabase (PostgreSQL) for cross-device syncing.
-* [ ] **Email Alerts:** Integration with SendGrid for 2-day renewal warnings.
-* [ ] **OAuth:** Real Google Login implementation.
+## 📈 Future Roadmap
+
+- Build a **real web app** (React / Vue) using this design.  
+- Integrate **authentication** (signup/login).  
+- Use a **backend** + database to store user subscription data.  
+- Add **push/email reminders** for renewal.  
+- Provide **analytics dashboards** (yearly spend, cancel suggestions).
 
 ---
 
-*Submitted by Tanish Panwar as part of the End Module-5 Project @ Masai.*
+## 👥 Contributing
+
+- Currently, this is a **design-only** project, so contributions could be in:  
+  - Improving UI / UX flows  
+  - Prototyping missing screens  
+  - Translating design to a working web app (frontend + backend)  
+- If you want to contribute, reach out / create a branch (if this is in a repo).
+
+---
+
+## 📄 License
+
+TBD – (If you plan to open-source or share, define a license here.)
+
+---
+
+## 📞 Contact
+
+- **Author**: Tansih Panwar 
+- **Email**: bhivrajtalks@gmail.com 
+- **LinkedIn**: https://www.linkedin.com/in/tanish-panwar-706734381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+- **GitHub**: https://github.com/panwartanish
+
+---
+
