@@ -1,6 +1,6 @@
-# Subscription Tracker App
+# SubSentry
 
-**Subscription Tracker App** is a web-based (Figma-prototype) dashboard for tracking user subscriptions (e.g., streaming, SaaS, utilities). It helps users visualize and manage recurring expenses in one place.
+**SubSentry is a dashboard for tracking user subscriptions (e.g., streaming, SaaS, utilities). It helps users visualize and manage recurring expenses in one place.
 
 ---
 
@@ -22,7 +22,7 @@ Many people lose track of their recurring subscriptions — some cancel, some fo
 
 ## 🧪 Prototype & Design
 
-This project is currently a **design prototype** built in Figma. It’s not live for production use, but the Figma site serves as a clickable demo for flows, UI, and interactions.
+This project is currently a **design prototype**. It’s not live for production use, but the site serves as a clickable demo for flows, UI, and interactions.
 
 - **View Prototype**: [Figma Site / Demo Link]  
 - **Design Tools**: Figma (Frames, Components, Prototyping)
